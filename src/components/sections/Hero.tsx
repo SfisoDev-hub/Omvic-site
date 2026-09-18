@@ -24,8 +24,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-charcoal-100">
-          {siteConfig.companyName} provides professional construction, renovation and property maintenance
-          services for residential and commercial clients — plumbing to paving, and everything between.
+          {siteConfig.companyName} provides professional construction, renovation and property maintenance services for residential and commercial clients, from building and roofing to paving, tiling and finishing work.
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">

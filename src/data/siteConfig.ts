@@ -1,23 +1,26 @@
 // ---------------------------------------------------------------------------
 // SITE CONFIG
-// Every piece of company-specific detail lives in this one file on purpose,
-// so it can be swapped out for real information without hunting through
-// components. Replace every [PLACEHOLDER] below.
 // ---------------------------------------------------------------------------
 
 export const siteConfig = {
-  companyName: '[COMPANY NAME]',
+  companyName: 'OmVic Projects & Construction',
+
   tagline: 'Building. Renovating. Maintaining.',
-  ownerName: '[OWNER NAME]',
+
+  ownerName: 'Victor',
 
   contact: {
-    phone: '[PHONE NUMBER]',
-    phoneHref: 'tel:[PHONE NUMBER]',
-    whatsapp: '[WHATSAPP NUMBER]',
-    whatsappHref: 'https://wa.me/[WHATSAPP NUMBER]',
-    email: '[EMAIL ADDRESS]',
-    emailHref: 'mailto:[EMAIL ADDRESS]',
-    address: '[COMPANY ADDRESS]',
+    phone: '+27 76 511 1998',
+    phoneHref: 'tel:+27765111998',
+
+    whatsapp: '+27 76 511 1998',
+    whatsappHref: 'https://wa.me/27765111998',
+
+    email: 'victor@omvic.co.za',
+    emailHref: 'mailto:victor@omvic.co.za',
+
+    address: '6233 Umilo Street, Birch Acres, Kempton Park, 1618',
+
     hours: 'Mon – Fri: 07:00 – 17:00 · Sat: 08:00 – 13:00',
   },
 

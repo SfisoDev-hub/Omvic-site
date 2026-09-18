@@ -1,23 +1,29 @@
 import { useState } from 'react'
+
 import { projects, projectCategories, type ProjectCategory } from '@/data/projects'
+
 import ProjectCard from '@/components/ui/ProjectCard'
+
 import SectionHeading from '@/components/ui/SectionHeading'
 
-type Filter = 'All' | ProjectCategory
+type Filter = ProjectCategory
 
 export default function Projects() {
-  const [activeFilter, setActiveFilter] = useState<Filter>('All')
+  const [activeFilter, setActiveFilter] = useState<Filter>('Building')
 
-  const filtered = activeFilter === 'All' ? projects : projects.filter((p) => p.category === activeFilter)
+  const filtered = projects.filter(
+    (p) => p.category === activeFilter
+  )
 
   return (
     <section id="projects" className="bg-sand-100 py-24 sm:py-32">
       <div className="container-wide">
+
         <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+
           <SectionHeading
             eyebrow="Our Work"
             title="A look at recent projects"
-            description="Placeholder gallery — replace each image and detail in src/data/projects.ts with real completed work as it becomes available."
           />
 
           <div className="flex flex-wrap gap-2">
@@ -36,6 +42,7 @@ export default function Projects() {
               </button>
             ))}
           </div>
+
         </div>
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -43,6 +50,7 @@ export default function Projects() {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+
       </div>
     </section>
   )

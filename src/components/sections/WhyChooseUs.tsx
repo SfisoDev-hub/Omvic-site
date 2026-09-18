@@ -15,9 +15,9 @@ const reasons = [
   { icon: MessageSquare, title: 'Reliable communication', description: 'You know what is happening on your project, without having to chase for updates.' },
   { icon: Award, title: 'Professional service', description: 'From the first site visit to the final walkthrough, handled properly.' },
   { icon: ClipboardList, title: 'Attention to detail', description: 'The small things are what separate a good job from a job that needs redoing.' },
-  { icon: Building, title: 'Multiple trades, one company', description: 'Bricklaying to electrical, coordinated by a single point of contact.' },
+  { icon: Building, title: 'Multiple trades, one company', description: 'Building, roofing, tiling, paving, ceilings and more, coordinated by a single point of contact.  ' },
   { icon: Home, title: 'Residential & commercial', description: 'Comfortable on a family home, a rental unit or a commercial property.' },
-  { icon: FileText, title: 'Competitive quotations', description: 'Clear, itemised quotations before any work begins — no surprises.' },
+  { icon: FileText, title: 'Competitive quotations', description: 'Clear, itemised quotations before any work begins, no surprises.' },
   { icon: CheckCircle2, title: 'Committed to finishing properly', description: 'A job is only done when it is done right, not when it looks right from a distance.' },
 ]
 

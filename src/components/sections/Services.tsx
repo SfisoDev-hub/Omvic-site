@@ -17,8 +17,8 @@ export default function Services() {
       <div className="container-wide">
         <SectionHeading
           eyebrow="What We Do"
-          title="A full range of construction and maintenance services"
-          description="Every trade required for a build, a renovation or ongoing maintenance, delivered by one company you can hold accountable."
+          title="Construction and finishing services"
+          description="Professional building and finishing services delivered with quality workmanship and attention to detail."
         />
 
         <div className="mt-10 flex flex-wrap gap-3" role="tablist" aria-label="Filter services by category">

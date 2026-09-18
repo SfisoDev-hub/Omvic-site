@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/siteConfig'
 import SectionHeading from '@/components/ui/SectionHeading'
 
 const stats = [
-  { icon: ClipboardCheck, label: '10+ Services' },
+  { icon: ClipboardCheck, label: '5+ Services' },
   { icon: Users, label: 'Residential & Commercial' },
   { icon: HardHat, label: 'Quality Workmanship' },
   { icon: ShieldCheck, label: 'Reliable Service' },
@@ -21,7 +21,7 @@ export default function About() {
             className="h-[28rem] w-full object-cover cut-corner"
           />
           <div className="absolute -bottom-6 -right-4 hidden w-52 border border-charcoal-100 bg-white p-5 shadow-panel sm:block lg:-right-8">
-            <p className="font-display text-3xl font-extrabold text-charcoal-900">10+</p>
+            <p className="font-display text-3xl font-extrabold text-charcoal-900">5+</p>
             <p className="mt-1 text-sm text-charcoal-500">trades and services under one company</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function About() {
           />
           <p className="mt-6 text-base leading-relaxed text-charcoal-500">
             {siteConfig.companyName} provides reliable construction and maintenance solutions across multiple
-            trades — from structural building work through to the finishing details. Our approach is built on
+            trades, from structural building work through to the finishing details. Our approach is built on
             quality workmanship, professional service and reliable project delivery, whether we're laying a
             single wall or managing a full renovation.
           </p>

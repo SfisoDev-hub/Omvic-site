@@ -18,7 +18,7 @@ const steps = [
     number: '03',
     icon: FileSignature,
     title: 'Quotation',
-    description: 'You receive a clear, itemised quotation before any work begins — no vague pricing.',
+    description: 'You receive a clear, itemised quotation before any work begins, no vague pricing.',
   },
   {
     number: '04',

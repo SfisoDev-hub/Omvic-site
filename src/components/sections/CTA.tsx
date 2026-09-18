@@ -17,7 +17,7 @@ export default function CTA() {
       <div className="container-wide relative z-10 max-w-2xl">
         <h2 className="text-display-md text-sand-50">Have a project in mind?</h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal-100">
-          Tell us what you need and we&apos;ll help you get started — from a single repair to a full renovation.
+          Tell us what you need and we&apos;ll help you get started
         </p>
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Button href="#contact" variant="primary" icon={<ArrowRight className="h-4 w-4" />}>
