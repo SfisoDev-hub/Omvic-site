@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-bold tracking-tight text-charcoal-900;
+  }
+
+  :focus-visible {
+    outline: 2px solid #c4862e;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Angled-corner panel used instead of rounded cards, to keep an industrial edge */
+  .cut-corner {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%);
+  }
+
+  .cut-corner-sm {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 text-sm font-semibold text-gold-dark;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    @apply h-[2px] w-8 bg-gold;
+  }
+
+  .container-wide {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+  }
+
+  .blueprint-bg {
+    background-image: linear-gradient(rgba(196, 134, 46, 0.09) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(196, 134, 46, 0.09) 1px, transparent 1px);
+    background-size: 42px 42px;
+  }
+}
